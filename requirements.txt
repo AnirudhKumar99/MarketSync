@@ -1,0 +1,6 @@
+pandas
+requests
+beautifulsoup4
+python-dotenv
+# For email sending
+# (smtplib and email are standard library, so not needed) 
