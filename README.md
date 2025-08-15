@@ -1,4 +1,4 @@
-# Stock_job
+# MarketSync
 
 **Weekly rebalancing portfolio with an email report generated and sent automatically.**
 
@@ -49,8 +49,8 @@ This project scrapes stock data from Screener.in, generates a model portfolio us
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/AnirudhKumar99/Stock_job.git
-cd Stock_job
+git clone https://github.com/AnirudhKumar99/MarketSync.git
+cd MarketSync
 ```
 
 ### 2. Install Dependencies
@@ -78,7 +78,7 @@ python3 portfolio_reporter.py
 ### 5. Automate with Cron or Render
 - **Cron:** Add a cron job (e.g., every Monday at 10am IST):
   ```cron
-  30 4 * * 1 cd /path/to/Stock_job && /usr/bin/python3 portfolio_reporter.py
+  30 4 * * 1 cd /path/to/MarketSync && /usr/bin/python3 portfolio_reporter.py
   ```
   (4:30 UTC = 10:00 IST)
 - **Render:** Set up a scheduled job to pull from GitHub and run `python3 portfolio_reporter.py`.
